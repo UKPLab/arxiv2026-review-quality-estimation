@@ -28,7 +28,15 @@ Don't hesitate to send us an e-mail if you have further questions.
 Please use the following citation (To be added after arxiv upload):
 
 ```
-
+@misc{kuznetsov2026peerreviewreallydecline,
+      title={Is Peer Review Really in Decline? Analyzing Review Quality across Venues and Time}, 
+      author={Ilia Kuznetsov and Rohan Nayak and Alla Rozovskaya and Iryna Gurevych},
+      year={2026},
+      eprint={2601.15172},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.15172}, 
+}
 ```
 
 ## Disclaimer
