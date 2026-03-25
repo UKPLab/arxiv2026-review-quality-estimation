@@ -18,6 +18,26 @@ Contact person: [Rohan Nayak](mailto:rohan.nayak@tu-darmstadt.de)
 
 Don't hesitate to send us an e-mail if you have further questions.
 
+## Quick Start
+
+### Install requirements
+
+First, ensure you have python 3.12\
+Then, install the necessary requirements
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_md
+````
+
+For OpenAI-based inference, set your key:
+
+```bash
+export OPENAI_API_KEY=YOUR_KEY_HERE
+```
+
+### Download dataset
+awwd
+
 ## Description of current code
 - analysis.ipynb has the code for all the results used in the paper (results may be different as NeurIPS2024 and NeurIPS2025 data are absent)
 - openReviewCrawler.ipynb has the code used for crawling data from OpenReview
