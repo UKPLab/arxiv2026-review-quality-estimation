@@ -12,7 +12,7 @@
 
 
 # Activate environment created based on requirements.txt in this repo
-source ...
+source rqe/bin/activate
 
 # Replace venue name as needed
 VENUE="ARR2022"
