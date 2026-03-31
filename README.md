@@ -33,11 +33,14 @@ Download the dataset in the repository root from [here](https://tudatalib.ulb.tu
 ### Install requirements
 
 First, ensure you have python 3.12\
-Then, install the necessary requirements
+Navigate to the repository root and create the environment named ``rqe``
 ```bash
+uv venv rqe --python 3.12
+source rqe/bin/activate
 uv pip install -r requirements.txt
+uv pip install scispacy https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+uv pip install git+https://github.com/UKPLab/nlpeer
 ````
-
 For OpenAI-based itemization, set your key:
 
 ```bash
